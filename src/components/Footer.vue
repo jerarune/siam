@@ -63,22 +63,22 @@
         <ul class="menu icon-menu">
           <li>
             <a class="menu__icon" href="https://twitter.com">
-              twitter
+              <twitter></twitter>
             </a>
           </li>
           <li>
             <a class="menu__icon" href="https://plus.google.com">
-              gplus
+              <google></google>
             </a>
           </li>
           <li>
             <a class="menu__icon" href="https://www.facebook.com">
-              facebook
+              <facebook></facebook>
             </a>
           </li>
           <li>
             <a class="menu__icon" href="https://youtube.com">
-              youtube
+              <youtube></youtube>
             </a>
           </li>
         </ul>
@@ -106,8 +106,20 @@
 </template>
 
 <script>
+import Facebook from 'icons/facebook';
+import Twitter from 'icons/twitter';
+import Youtube from 'icons/youtube-play';
+import Google from 'icons/google-plus';
+
 export default {
   name: 'footer',
+
+  components: {
+    Facebook,
+    Twitter,
+    Youtube,
+    Google
+  }
 }
 </script>
 
@@ -184,6 +196,18 @@ export default {
   text-transform: uppercase;
   padding: 1em 1.5em;
   margin: 1em 0 .75em auto;
+}
+.icon-menu {
+  display: flex;
+}
+.menu__icon {
+  color: #fff;
+  border-radius: 50%;
+  background-color: #e63b3b;
+  display: block;
+  font-size: 1.5em;
+  padding: .25em .35em;
+  margin: 0 .2em 0 0;
 }
 .credit {
   border-top: 2px solid #aaa;
