@@ -132,7 +132,7 @@ export default {
 .footer {
   display: flex;
   justify-content: space-between;
-  margin: 2em 0 1em;
+  margin: 0 0 1em;
 }
 
 .footer__item {
