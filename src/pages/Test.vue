@@ -1,19 +1,6 @@
 <template>
   <div class="root">
-    <div class="blue">
-    </div>
-    <div class="green flex">
-      <div class="purple">
-      </div>
-      <div class="yellow">
-        <div class="orange">
-        </div>
-        <div class="red">
-        </div>
-      </div>
-    </div>
-    <div class="gray">
-    </div>
+    <!-- insert code here -->
   </div>
 </template>
 
