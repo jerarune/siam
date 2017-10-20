@@ -8,13 +8,18 @@ function load(component) {
 Vue.use(Router)
 
 export default new Router({
-  history: true,
+  mode: 'history',
 
   routes: [
     {
       path: '/',
       name: 'home',
       component: load('Home')
+    },
+    {
+      path: '/test',
+      name: 'test',
+      component: load('Test')
     }
   ]
 })
